@@ -64,3 +64,7 @@ const setPosToButtons = () => {
 
 setPosToButtons();
 window.addEventListener('resize', e => setPosToButtons);
+
+setInterval(() => {
+    nextButton.click();
+}, 10000);

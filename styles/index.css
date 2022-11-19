@@ -3,7 +3,8 @@
     --red-color: #963023;
     --light-red-color: #bd1b18;
     --yellow-color: #f7cd0b;
-    --gray-color: rgb(190, 190, 190);
+    --gray-color: rgb(146, 146, 146);
+    --dark-gray-color: rgb(122, 122, 122);
 }
 
 
@@ -106,3 +107,36 @@ a:visited {
     text-transform: uppercase;
     color: white;
 }
+
+.main-info--boxes {
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dropbtn {
+    border: 0;
+    background: transparent;
+    text-transform: uppercase;
+    color: var(--dark-gray-color);
+    font-size: .9rem;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    border: .75px solid var(--gray-color);
+    min-width: 160px;
+    z-index: 1;
+    padding: 8px 16px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.show {display:block;}
