@@ -1,5 +1,5 @@
 :root {
-    --blue-color: #364377;
+    --blue-color: rgb(55, 68, 121);
     --red-color: #963023;
     --light-red-color: #bd1b18;
     --yellow-color: #f7cd0b;
@@ -140,3 +140,38 @@ a:visited {
 }
 
 .show {display:block;}
+
+.greetings {
+    position: relative;
+}
+
+.pointed-borders {
+    padding: 20px 0;
+    border-top: 6px dotted rgba(55, 68, 121, .5);
+    border-bottom: 6px dotted rgba(55, 68, 121, .5);
+}
+
+.img-border {
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    margin: 10px;
+    border-radius: 4px;
+    border: 1px solid var(--gray-color);
+    float: left;
+}
+
+.rector {
+    margin: 0;
+}
+
+.greetings p:nth-child(2) {
+    margin-top: 10px;
+}
+
+.signature {
+    font-family: 'Roboto Condensed', sans-serif;
+    position: absolute;
+    right: 0;
+    bottom: 16px;
+}
