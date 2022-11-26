@@ -312,18 +312,18 @@ a:visited {
     gap: 12px;
 }
 
-.social * {
-    width: 30px;
-    height: 30px;
-}
-
 .social a {
+    width: 32px;
+    height: 32px;
     color: var(--yellow-color);
-    font-size: 32px;
     border: 2px solid var(--yellow-color);
     border-radius: 50%;
     padding: 12px;
     transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
 }
 
 .social a:hover {
