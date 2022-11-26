@@ -330,3 +330,16 @@ a:visited {
     color: var(--blue-color);
     background-color: var(--yellow-color);
 }
+
+.video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px 0;
+}
+
+.video video {
+    width: 800px;
+    height: 460px;
+    background: black;
+}
